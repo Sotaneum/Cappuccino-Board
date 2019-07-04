@@ -1,0 +1,41 @@
+
+member_info
+-e-mail 
+-name
+-password
+-birth
+-date
+
+SQL = create table member_info  (email varchar(150) primary key , name varchar(12) ,passowrd varchar(300) ,birth datetime ,date timestamp);
+
+post
+-no
+-board_id
+-title
+-name
+-member_id
+-content
+-comment_id
+-date_update
+-date_write
+-hit
+-multi
+-file
+SQL = create table post (no int, board_id int, title varchar(120),name varchar(12),member_id int, content text,comment_id int, date_update timestamp,date_write date,hit int,multi varchar(10),file varchar(250),passowrd varchar(300),primary key (no,board_id));
+
+comment
+-no
+-board_id
+-name
+-member_id
+-date
+-comment
+SQL = create table comment (no int,board_id int,post_id int,name varchar(12),date timestamp,comment text,password varchar(300) ,primary key(no,board_id,post_id));
+
+extends_info
+-phone_number
+-address
+
+
+create user 'boo'@'%' identified by 'pboop';
+GRANT ALL PRIVILEGES ON boo.* TO 'boo'@'%' IDENTIFIED BY 'pboop';
