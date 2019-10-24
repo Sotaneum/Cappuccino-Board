@@ -82,5 +82,5 @@
 
 ## Copyright
 
-- 비상업적 용도로 사용 가능하며 링크를 반드시 포함해주세요.
+- 비상업적 용도로 사용 가능하며 `링크`를 반드시 포함해주세요.
 - 문제가 되는 내용이 있다면 언제든지 [`issue`](https://github.com/Sotaneum/Cappuccino-Board/issues/new), [`Pull requests`](https://github.com/Sotaneum/Cappuccino-Board/compare) 부탁드립니다.
