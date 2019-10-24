@@ -2,7 +2,7 @@
 
 카프치노 게시판 :: 설치형 PHP 게시판
 
-![list](./assets/list.png)
+![list](./assets/list_.png)
 
 ## Info
 
